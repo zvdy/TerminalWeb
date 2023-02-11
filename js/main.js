@@ -85,6 +85,10 @@ function commander(cmd) {
     case "whois":
       loopLines(whois, "color2 margin", 80);
       break;
+
+    case "uname":
+      loopLines(uname, "color2 margin", 80);
+      break;
     case "whoami":
       loopLines(whoami, "color2 margin", 80);
       break;
@@ -128,6 +132,9 @@ function commander(cmd) {
       break;
     case "banner":
       loopLines(banner, "", 80);
+      break;
+    case "exit":
+      loopLines(exit, "color2", 80)
       break;
     // socials
     case "linkedin":
