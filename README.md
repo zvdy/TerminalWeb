@@ -60,10 +60,9 @@ Show the information about the system.
 
 Exit the terminal.
 
+## Website image
 
-
-
-
+![Website image](/img/website.png)
 
 
 ## License
